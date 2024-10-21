@@ -1,8 +1,10 @@
 import style from './IntroStyle.module.css';
-import introImg from '../../assets/DrawingMe.png';
+import introImg from '../../assets/meCircle.png';
 import themeIcon from '../../assets/sunIcon.png';
-import githubIcon from '../../assets/githubIcon.png'
-import linkedIcon from '../../assets/linkedIcon.png'
+import githubIcon from '../../assets/githubIcon.png';
+import linkedIcon from '../../assets/linkedIcon.png';
+import resume from '../../assets/Resume.pdf';
+
 function Intro() {
   return (
     <section id='intro' className={style.container}>
@@ -19,14 +21,17 @@ function Intro() {
             <img src={githubIcon} alt="Github Icon" />
           </a>
 
-          <a href="https://www.linkedin.com/in/kevin-bach-43727a295?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVK8e4IssQgeSUm02t9S2qQ%3D%3D5" 
+          <a href="https://www.linkedin.com/in/kevin-bach-sand2ebi" 
           target='_blank'>
             <img src={linkedIcon} alt="Linkedin Icon" />
           </a>
         </span>
 
         <p>I'm am very passionate on developing React Website Applications!</p>
-      
+
+        <a href={resume} download>
+          <button className="hover">Resume</button>
+        </a>
       </div>
     </section>
   )
