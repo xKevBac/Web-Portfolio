@@ -1,5 +1,5 @@
 import style from './IntroStyle.module.css';
-import introImg from '../../assets/meCircle.png';
+import introImg from '../../assets/KevinRich.png';
 import themeIcon from '../../assets/sunIcon.png';
 import githubIcon from '../../assets/githubIcon.png';
 import linkedIcon from '../../assets/linkedIcon.png';
@@ -9,7 +9,7 @@ function Intro() {
   return (
     <section id='intro' className={style.container}>
       <div className={style.colorModeContainer}>
-        <img className={style.intro} src={introImg} alt="Little Drawing of Me"/>
+        <img className={style.intro} src={introImg} alt="Pic of Me"/>
         <img className={style.colorMode} src={themeIcon} alt="Color Mode Theme"/>
       </div>
 
