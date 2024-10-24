@@ -7,7 +7,8 @@ This is My Portfolio using React
 
 2) In the terminal type:
     - npm install
-    - nrm run dev
+    - npm run dev
+    - npm install react-scroll
 
-3) click the local link
+3) click the local link to run the application
    --http://localhost:5173/
