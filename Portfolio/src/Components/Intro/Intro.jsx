@@ -1,5 +1,5 @@
 import style from './IntroStyle.module.css';
-import introImg from '../../assets/KevinRich.png';
+import introImg from '../../assets/CircleMe.png';
 import themeIcon from '../../assets/sunIcon.png';
 import githubIcon from '../../assets/githubIcon.png';
 import linkedIcon from '../../assets/linkedIcon.png';
